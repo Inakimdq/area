@@ -1,0 +1,31 @@
+.formulario{
+    border-radius: 10px;
+    background-color: rgb(89, 184, 184);
+width: 300px;
+height: 300px;
+    position: absolute;
+    text-align: center;
+    
+}
+.inp{
+    width: 200px;
+    border-radius: 5px;
+
+}
+.entrada{
+
+margin-top: 10px;
+
+}
+.titlebox{
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+}
+.buttonbox{
+    margin-top: 10%;
+
+}

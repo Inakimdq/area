@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="area.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <div class="formulario">
+    <form>
+        <div class="titlebox">
+            <a class="title">Calcular Area</a>
+        </div>
+            <div class="entrada">
+                <a >Area Rectangulo 1:</a>
+            <div id="rec1"> </div>
+        </div>
+
+        <div class="entrada">
+            <a id="rec2">Area Rectangulo 2:</a>
+        </div>
+        <div class="buttonbox">
+    <button type="button" onclick="ejecutar()">Calcular</button>
+        </div>
+        </form>
+        <script> 
+        
+        function ejecutar(){
+
+        class CRectangulo {
+            constructor(base1, altura1, base2, altura2){
+            this.base1 = base1;
+            this.altura1 = altura1;
+            this.base2 = base2;
+            this.altura2 = altura2;
+        }
+    CalclarArea(base1, altura1, base2, altura2) {
+    
+        return this.base1 * this.altura1
+        return this.base2 * this.altura2
+       
+    }} 
+    var base1 = 4;
+    var altura1 = 5;
+    var base2 = 5;
+    var altura2 = 8;
+    var r = new CRectangulo(base1, altura1);
+    var r1 = new CRectangulo(base2, altura2);
+    
+    document.getElementById("rec1").innerHTML +=  r.CalclarArea()
+    document.getElementById("rec2").innerHTML +=  r1.CalclarArea()
+    
+}
+        </script>
+</div>
+
+
+</body>
+</html>
